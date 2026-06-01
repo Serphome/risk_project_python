@@ -1,0 +1,16 @@
+# Python environment and caches
+.venv/
+__pycache__/
+*.py[cod]
+
+# OS/editor files
+.DS_Store
+.matplotlib_cache/
+
+# Generated project outputs
+garch_project_outputs/
+risk_project_outputs/
+
+# Local temporary files
+*.tmp
+*.log
