@@ -7,9 +7,20 @@ __pycache__/
 .DS_Store
 .matplotlib_cache/
 
-# Generated project outputs
-garch_project_outputs/
+# Old/generated project outputs from earlier project version
 risk_project_outputs/
+
+# Keep useful final results in git, but ignore local QA previews and old duplicates
+garch_project_outputs/pdf_preview/
+garch_project_outputs/report_render_pdfium/
+garch_project_outputs/01_data_overview.png
+garch_project_outputs/02_volatility_analysis.png
+garch_project_outputs/05_methods_comparison.png
+garch_project_outputs/06_asset_relationship.png
+garch_project_outputs/full_report.md
+garch_project_outputs/presentation_text.md
+garch_project_outputs/report_summary.md
+garch_project_outputs/Проект_рыночный_риск_GARCH_GLD_TLT.docx
 
 # Local temporary files
 *.tmp
